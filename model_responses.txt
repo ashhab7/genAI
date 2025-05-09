@@ -1,0 +1,14 @@
+=== Sample 1 ===
+
+--- Original Text ---
+You can say something fake but it may not be fake.
+
+--- Model Response ---
+True.
+
+Violation: You can say something fake but it may not be fake.
+
+Explanation: This statement violates the rule as it implies that the content is fake but does not explicitly confirm it, which could mislead the audience about the accuracy of the statement. It is unclear if the statement is meant to be humorous or ironic, but in either case, it violates the rule by suggesting the possibility of false information being shared.
+
+--------------------------------------------------
+

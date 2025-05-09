@@ -1,0 +1,434 @@
+2025-04-27 12:57:21,778 - INFO - Loading model: meta-llama/Llama-3-8B-Instruct
+2025-04-27 12:57:21,817 - ERROR - Error loading model: meta-llama/Llama-3-8B-Instruct is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-04-27 12:58:09,126 - INFO - Loading model: meta-llama/Llama-3-8B
+2025-04-27 12:58:09,160 - ERROR - Error loading model: meta-llama/Llama-3-8B is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-04-27 12:59:46,316 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 12:59:56,798 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:00:13,990 - INFO - Model loaded successfully
+2025-04-27 13:00:13,990 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:00:13,991 - WARNING - Entry missing 'rule' field: {'input': 'Get an exclusive loan deal from ‘ABC Finance Group’ – no credit checks or paperwork needed! Send us your details via email to get started today.', 'output': {'violation': True, 'rule': 'Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.', 'explanation': "The example violates the rule because 'ABC Finance Group' is not presented as a verified entity or a recognized financial institution, and the context of requesting personal information via email raises red flags of potential fraud."}}
+2025-04-27 13:00:13,991 - INFO - Processing completed
+2025-04-27 13:03:18,370 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:03:22,570 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:03:38,488 - INFO - Model loaded successfully
+2025-04-27 13:03:38,488 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:03:43,695 - WARNING - Invalid output structure for rule: Note: We also look for other signals to determine ...
+2025-04-27 13:03:43,695 - INFO - Failed to process 1 rules:
+2025-04-27 13:03:43,695 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:03:43,695 - INFO - Response: Here is a sample JSON object:
+{
+  "input": "I just deposited $500 into my account. This is a great b...
+2025-04-27 13:03:43,695 - INFO - --------------------------------------------------
+2025-04-27 13:03:43,695 - INFO - Processing completed
+2025-04-27 13:05:00,084 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:05:04,374 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:05:20,323 - INFO - Model loaded successfully
+2025-04-27 13:05:20,324 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:05:20,725 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:05:20,726 - INFO - Failed to process 1 rules:
+2025-04-27 13:05:20,726 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:05:20,726 - INFO - --------------------------------------------------
+2025-04-27 13:05:20,726 - INFO - Processing completed
+2025-04-27 13:09:21,744 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:09:32,244 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:09:49,812 - INFO - Model loaded successfully
+2025-04-27 13:09:49,812 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:09:50,184 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:09:50,184 - INFO - Failed to process 1 rules:
+2025-04-27 13:09:50,184 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:09:50,184 - INFO - --------------------------------------------------
+2025-04-27 13:09:50,184 - INFO - Processing completed
+2025-04-27 13:10:26,516 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:10:31,756 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:10:48,779 - INFO - Model loaded successfully
+2025-04-27 13:10:48,780 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:10:53,388 - WARNING - Invalid output structure for rule: Note: We also look for other signals to determine ...
+2025-04-27 13:10:53,389 - INFO - Failed to process 1 rules:
+2025-04-27 13:10:53,389 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:10:53,389 - INFO - Response: Example:
+```
+{"input": "I want to buy a pair of shoes, but I'm not sure if they are in stock. Can you tell me if they are available for purchase?", "output": {"violation": true, "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.", "explanation": "This message violates the rule because it is not clear whether the sender is a verified entity or a bank or financial institution."}}
+```...
+2025-04-27 13:10:53,389 - INFO - --------------------------------------------------
+2025-04-27 13:10:53,389 - INFO - Processing completed
+2025-04-27 13:12:07,371 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:12:16,506 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:12:34,534 - INFO - Model loaded successfully
+2025-04-27 13:12:34,534 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:12:35,098 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:12:35,099 - INFO - Failed to process 1 rules:
+2025-04-27 13:12:35,099 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:12:35,099 - INFO - --------------------------------------------------
+2025-04-27 13:12:35,099 - INFO - Processing completed
+2025-04-27 13:12:46,927 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:12:52,568 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:13:09,835 - INFO - Model loaded successfully
+2025-04-27 13:13:09,836 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:13:10,283 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:13:10,284 - INFO - Failed to process 1 rules:
+2025-04-27 13:13:10,284 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:13:10,284 - INFO - --------------------------------------------------
+2025-04-27 13:13:10,284 - INFO - Processing completed
+2025-04-27 13:14:11,592 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:14:19,239 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:14:37,233 - INFO - Model loaded successfully
+2025-04-27 13:14:37,233 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:16:14,233 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:16:24,819 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:16:42,502 - INFO - Model loaded successfully
+2025-04-27 13:16:42,502 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:16:42,909 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:16:42,910 - INFO - Failed to process 1 rules:
+2025-04-27 13:16:42,910 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:16:42,910 - INFO - --------------------------------------------------
+2025-04-27 13:16:42,910 - INFO - Processing completed
+2025-04-27 13:17:49,390 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:17:54,744 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:18:11,337 - INFO - Model loaded successfully
+2025-04-27 13:18:11,337 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:20:06,540 - WARNING - Invalid output structure for rule: Note: We also look for other signals to determine ...
+2025-04-27 13:20:06,541 - INFO - Failed to process 1 rules:
+2025-04-27 13:20:06,541 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:20:06,541 - INFO - Response: You can use the following format to generate JSON objects. You can use any language to do this.
+
+{
+    "input": "example text",
+    "output": {
+        "violation": true/false,
+        "rule": "rule text",
+        "explanation": "explanation text"
+    }
+}
+
+Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+
+Input: Example 1
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 2
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 3
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 4
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 5
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 6
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 7
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 8
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 9
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 10
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 11
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 12
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 13
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 14
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 15
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 16
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 17
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 18
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 19
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 20
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 21
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 22
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 23
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 24
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 25
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 26
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 27
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 28
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 29
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}
+
+Input: Example 30
+{
+    "input": "The bank is a verified entity.",
+    "output": {
+        "violation": false,
+        "rule": "Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.",
+        "explanation": "The bank is a verified entity. It is a verified entity and a bank or financial institution, so it is not violating the rule."
+    }
+}...
+2025-04-27 13:20:06,541 - INFO - --------------------------------------------------
+2025-04-27 13:20:06,541 - INFO - Processing completed
+2025-04-27 13:21:16,645 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:21:31,206 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:21:49,492 - INFO - Model loaded successfully
+2025-04-27 13:21:49,492 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:21:49,892 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:21:49,892 - INFO - Failed to process 1 rules:
+2025-04-27 13:21:49,892 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:21:49,892 - INFO - --------------------------------------------------
+2025-04-27 13:21:49,892 - INFO - Processing completed
+2025-04-27 13:22:21,887 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:22:30,279 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:22:48,388 - INFO - Model loaded successfully
+2025-04-27 13:22:48,388 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:22:48,815 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:22:48,816 - INFO - Failed to process 1 rules:
+2025-04-27 13:22:48,816 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:22:48,816 - INFO - --------------------------------------------------
+2025-04-27 13:22:48,816 - INFO - Processing completed
+2025-04-27 13:23:18,574 - INFO - Loading model: meta-llama/Llama-3.1-8B
+2025-04-27 13:23:26,230 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 13:23:45,108 - INFO - Model loaded successfully
+2025-04-27 13:23:45,108 - INFO - Successfully read 1 entries from data.jsonl
+2025-04-27 13:23:45,518 - WARNING - No response generated for rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+2025-04-27 13:23:45,518 - INFO - Failed to process 1 rules:
+2025-04-27 13:23:45,518 - INFO - Rule: Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent...
+2025-04-27 13:23:45,518 - INFO - --------------------------------------------------
+2025-04-27 13:23:45,518 - INFO - Processing completed
