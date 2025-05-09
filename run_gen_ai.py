@@ -142,7 +142,7 @@ def save_results_to_file(results, output_file):
 def main():
     # Set up argument parsing
     parser = argparse.ArgumentParser(description='Generate text from a fine-tuned LLaMA model using sentences from a text file.')
-    parser.add_argument('--model', type=str, default="./llama-2-7b-chat-violation-checker", help='Path to the fine-tuned model')
+    parser.add_argument('--model', type=str, default="./llama-2-7b-chat-violation-checker-light", help='Path to the fine-tuned model')
     parser.add_argument('--input', type=str, help='Path to the input text file with sentences', default='input.txt')
     parser.add_argument('--output', type=str, default='model_responses.txt', help='Path to save the generated responses')
     parser.add_argument('--max_length', type=int, default=300, help='Maximum length for generated responses')

@@ -128,8 +128,8 @@ def main():
     # Configuration 
     input_file = 'support_converted.jsonl'
     output_dir = './results'
-    base_model = "NousResearch/Llama-2-7b-chat-hf"  # Using chat model for better instruction following
-    new_model = "llama-2-7b-chat-violation-checker"
+    base_model = "NousResearch/Llama-3.2-1B"  # Using chat model for better instruction following
+    new_model = "llama-2-7b-chat-violation-checker-light"
     
     # Parse command line arguments
     if len(sys.argv) > 1:
@@ -166,7 +166,8 @@ def main():
         model = AutoModelForCausalLM.from_pretrained(
             base_model,
             device_map="auto",
-            torch_dtype=torch.float16
+            torch_dtype=torch.float16,
+            token="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"
         )
         
         tokenizer = AutoTokenizer.from_pretrained(base_model)
